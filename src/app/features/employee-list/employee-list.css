@@ -1,0 +1,59 @@
+h2{
+    padding: 24px;
+    margin-top:12px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table{
+    margin-top: 40px;
+    width: 90%;
+    margin: 0 24px;
+    border-collapse: collapse;
+    background: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 45px;
+}
+th,td{
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+th{
+    background: slategray;
+    color: var(--text-dark);
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap:15px;
+    padding: 0px 45px 24px;
+}
+input{
+    padding: 10px 12px;
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+}
+
+input:focus{
+    outline: none;
+    border-color: var(--primary);
+}
+button{
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button.delete{
+    background: #ef4444;
+}
+button.cancel{
+    background: #6b7280;
+}
+button:hover{
+    opacity: 0.9;
+}

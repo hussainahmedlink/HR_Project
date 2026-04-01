@@ -1,0 +1,47 @@
+{
+  "employees": [
+    {
+      "name": "43r4r",
+      "email": "r4r",
+      "role": "r4r3r",
+      "department": "4r4r",
+      "id": "-nWFhNCf3xI"
+    },
+    {
+      "name": "r",
+      "email": "r",
+      "role": "r",
+      "department": "r",
+      "id": "bUmgdnQmxnI"
+    },
+    {
+      "name": "rr",
+      "email": "rr",
+      "role": "rr",
+      "department": "rr",
+      "id": "Ug9RWmasUaU"
+    },
+    {
+      "name": "r",
+      "email": "r",
+      "role": "r",
+      "department": "r",
+      "id": "hFGwkGu1qo4"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "1",
+      "employee": "Alice",
+      "reason": "Medical",
+      "status": "Approved"
+    },
+    {
+      "id": "2",
+      "employee": "Adam",
+      "reason": "Personal",
+      "status": "Pending"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
